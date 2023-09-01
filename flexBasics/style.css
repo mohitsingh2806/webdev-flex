@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    border: 3px red solid;
+    margin: 2px;
+    height: 100px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row-reverse; */
+    flex-direction: row;
+
+    flex-wrap:wrap;
+
+
+}
+
+.items {
+    border: 2px black solid;
+    margin: 2px;
+    height:20px;
+    width: 20px;
+}
+.item1{
+    order: 0;  
+}
